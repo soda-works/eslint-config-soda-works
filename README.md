@@ -7,7 +7,7 @@
 > 前提已安装 `eslint` `babel-eslint`
 
 ```bash
-$ tnpm i -D eslint-config-soda-works@latest
+$ npm i -D eslint-config-soda-works@latest
 ```
 
 
@@ -33,13 +33,13 @@ module.exports = {
 - Vue项目需额外安装
 
 ```
-$ tnpm i -D eslint-plugin-vue eslint-import-resolver-node
+$ npm i -D eslint-plugin-vue eslint-import-resolver-node
 ```
 
 - 如果用到 `webpack` 还需额外安装
  
 ```
-$ tnpm i -D eslint-import-resolver-webpack
+$ npm i -D eslint-import-resolver-webpack
 ```
 
 - 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
