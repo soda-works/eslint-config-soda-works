@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soda-works/eslint-config-soda-works.git"
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3"
