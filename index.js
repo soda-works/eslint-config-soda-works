@@ -107,5 +107,7 @@ module.exports = {
         'no-lonely-if': 'off',
         // 允许在else中有return存在
         'no-else-return': 'off',
+        // 允许return返回await的值
+        'no-return-await': 'off'
     },
 };
